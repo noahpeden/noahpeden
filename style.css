@@ -1,154 +1,66 @@
-html, body {
+/* Pen-specific styles */
+html, body, section {
   height: 100%;
 }
 
-header h1 {
-  font-family: sans-serif;
-  font-size: 30px;
-  color: black;
-  text-align: center;
-  margin-top: 45px;
+div {
+  display: flex;
+  flex-direction: column;
 }
 
-header span {
-  font-family: serif;
-  font-size: 25px;
+.container {
+  display: flex;
 }
 
-header img {
-  height: 40px;
-  padding: 5px;
-  margin-top: 10px;
-}
-header button {
-  padding: 5px;
-  background: black;
-  color: white;
-  width: 50px;
-
-}
-
-.left {
-  position: absolute;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: url('http://i.imgur.com/szBKDfq.jpg');
+.left-side {
+  background-image: url('images/noahpeden.jpg');
   background-size: cover;
-  padding: 50px -10px;
-  margin-bottom: 50px;
-  text-align: center;
   background-repeat: no-repeat;
+  flex: 1;
+  padding: 1rem;
 }
-.right {
-  position: absolute;
-  padding: 5px;
-  right: 0;
-  width: 50%;
-  height: 100%;
+.title-container h2{
+  font-family: 'Raleway', sans-serif;
 }
 
-.Bio h1 {
-  font-family: sans-serif;
-  font-size: 20px;
+.title-container h1{
+  font-family: 'Bitter', sans-serif;;
 }
 
-.Bio {
-  margin-top: 20px;
-  margin-left: 10%;
-  font-family: serif;
-  font-size: 15px;
+
+
+.right-side {
+  flex: 1;
+  padding: 1rem;
 }
-.Bio p {
-  font-size: 18px;
+
+header {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  mar
 }
-.Bio li {
+
+.title-who, .title-what, .title-where{
+  font-family: 'Bitter', sans-serif;
+  font-weight: bold;
+}
+
+.bio-text {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 50px;
+  padding: 10px 0 10px;
   list-style: disc;
-  margin-left: 30px;
-  padding: 5px;
 }
 
-.Projects {
-  margin-top: 30px;
-  margin-left: 10%;
-  font-family: serif;
-  font-size: 15px;
+.what-text li{
+  float: left;
+  padding: 20px 20px 0 20px;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 
-.Projects h1 {
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
 
-.Projects img {
-  display: inline;
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-          height: 90px;
-          padding: 20px;
-          position: relative;
-          margin-left: 20px;
-}
-
-.Projects img:hover {
-  border: 10px solid #000;
-  padding: 10px solid #000;
-  border-radius: 50%;
-}
-
-.Goals {
-  margin-top: 30px;
-  margin-left: 10%;
-  font-family: serif;
-  font-size: 15px;
-}
-
-.Goals h1 {
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.Goals ul {
-  list-style: disc;
-  margin-left: 30px;
-}
-
-.Goals li {
-  font-size: 15px;
-  padding: 5px;
-}
-
-.Education {
-  margin-left: 10%;
-  margin-top: 30px;
-  font-family: serif;
-  font-size: 15px;
-}
-.Education h1 {
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.Education ul {
-  list-style: disc;
-  margin-left: 30px;
-}
-.Education li {
-  padding: 5px;
-}
-.contact h1 {
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.contact {
-  margin-left: 10%;
-  margin-top: 20px;
+.what-text li:hover{
+  filter: none;
 }
