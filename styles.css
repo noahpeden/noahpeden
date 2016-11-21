@@ -19,6 +19,7 @@ div {
   flex: 1;
   padding: 1rem;
 }
+
 .title-container h2{
   font-family: 'Raleway', sans-serif;
 }
@@ -26,8 +27,6 @@ div {
 .title-container h1{
   font-family: 'Bitter', sans-serif;;
 }
-
-
 
 .right-side {
   flex: 1;
@@ -38,7 +37,13 @@ header {
   font-size: 30px;
   color: white;
   text-align: center;
-  mar
+}
+
+header img{
+  fill: white;
+  margin-top: 10px;
+  height: 60px;
+  width: 60px;
 }
 
 .title-who, .title-what, .title-where{
@@ -50,7 +55,11 @@ header {
   font-family: 'Raleway', sans-serif;
   margin-left: 50px;
   padding: 10px 0 10px;
-  list-style: disc;
+}
+
+.bio-text li{
+  padding: 2.5px 0 2.5px;
+  margin-bottom: 3px;
 }
 
 .what-text li{
@@ -62,5 +71,7 @@ header {
 
 
 .what-text li:hover{
+  border: 1px solid black;
   filter: none;
+  -webkit-filter: grayscale(0%);
 }
