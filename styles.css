@@ -20,15 +20,17 @@ div {
   padding: 1rem;
 }
 
-.title-container h2{
+.title-container h2 {
   font-family: 'Raleway', sans-serif;
 }
 
-.title-container h1{
+.title-container h1 {
   font-family: 'Bitter', sans-serif;;
 }
 
 .right-side {
+  color: white;
+  background-color: rgb(150, 150, 138);
   flex: 1;
   padding: 1rem;
 }
@@ -39,14 +41,14 @@ header {
   text-align: center;
 }
 
-header img{
+header img {
   fill: white;
   margin-top: 10px;
   height: 60px;
   width: 60px;
 }
 
-.title-who, .title-what, .title-where{
+.title-who, .title-what, .title-where {
   font-family: 'Bitter', sans-serif;
   font-weight: bold;
 }
@@ -57,12 +59,12 @@ header img{
   padding: 10px 0 10px;
 }
 
-.bio-text li{
+.bio-text li {
   padding: 2.5px 0 2.5px;
   margin-bottom: 3px;
 }
 
-.what-text li{
+.what-text li {
   float: left;
   padding: 20px 20px 0 20px;
   filter: gray;
@@ -70,8 +72,15 @@ header img{
 }
 
 
-.what-text li:hover{
+.what-text li:hover {
   border: 1px solid black;
   filter: none;
   -webkit-filter: grayscale(0%);
+}
+
+.where-text img {
+  padding: 20px 20px 20px 0;
+  float: left;
+  height: 70px;
+  width: 70px;
 }
